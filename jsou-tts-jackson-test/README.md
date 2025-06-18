@@ -1,4 +1,4 @@
-# JSOU - TTS
+# PROJECT: PDF-TO-SPEECH CONVERTER
 
 ## PDF to Speech Go Application
 This Go application continuously monitors a specified Google Cloud Storage (GCS) bucket for new PDF files in an `pdf-input/` "folder" (prefix). When a new PDF is detected, it extracts the text, uses Google Cloud's Text-to-Speech Long Audio Synthesis API to convert the text into an audio file, and then saves the resulting audio (in LINEAR16 format) to an `mp3-output/` "folder" within the same GCS bucket.
