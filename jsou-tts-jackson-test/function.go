@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.cmmc.space/atx-defense/jsou-tts/internal/pdf-to-text/pdfprocessor"
-	"github.cmmc.space/atx-defense/jsou-tts/internal/storage"
-	"github.cmmc.space/atx-defense/jsou-tts/internal/tts"
+	"MODULE_NAME/jsou-tts/internal/pdf-to-text/pdfprocessor"
+	"MODULE_NAME/jsou-tts/internal/storage"
+	"MODULE_NAME/jsou-tts/internal/tts"
 	"github.com/GoogleCloudPlatform/functions-framework-go/functions"
 	v2 "github.com/cloudevents/sdk-go/v2"
 )
