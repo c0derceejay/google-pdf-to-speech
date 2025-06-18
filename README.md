@@ -133,7 +133,7 @@ gcloud auth application-default login
 ```
 export BASE_GCS_BUCKET="BUCKET_NAME"
 export PROJECT_NUMBER="YOUR_ACTUAL_PROJECT_NUMBER" # Find in GCP Console
-export GCP_LOCATION="us-central1"   # Or your chosen region (e.g., global)
+export GCP_LOCATION="YOUR_REGION"   # Or your chosen region (e.g., global)
 export TTS_VOICE_NAME="en-US-Wavenet-D" # Or another voice from TTS docs
 ```
 7. Run Application:
